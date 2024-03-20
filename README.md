@@ -7,7 +7,6 @@
      - In this method, augmentation was done using techniques such as shear, flip, rotate on all images in the training set.
      - Here are some examples of the resulting images:
 ![RotateFlipShear1](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/83588049-43bf-4601-a3be-782cb74c4aee)
-
 ![RotateFlipShear2](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/f604c0f0-10f8-42b2-9b4e-6cbfef8eef1c)
 
   2) Generative Adversarial Network method (the "GAN.ipynb" file)
