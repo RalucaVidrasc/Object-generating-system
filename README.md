@@ -14,6 +14,7 @@
      - Used after training a StyleGAN2 model, following the steps from: https://github.com/lucidrains/stylegan2-pytorch . As training dataset, I created a new dataset of white images, in which I pasted single instances from the original COCO training dataset(one instance/ image).
      - Here are some of the newly generated people:   
 ![image](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/ce6bf60d-11d0-495f-8fe5-7ffafe867fea)
+
      - Here are some final images obtained after augmentation: 
 ![image](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/37bb6864-db75-4d6a-a6d5-5f04a320a9bd)
 
