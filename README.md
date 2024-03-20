@@ -21,5 +21,6 @@
   3) Simple Copy Paste method (the Simple_Copy_Paste.ipynb file)
      - This method was mainly inspired by this article: https://arxiv.org/abs/2012.07177 . The main idea is selecting 2 random images from the dataset and extract the instances from one and copy them to the other after aplying a series of transformations both to the base image and to the new instance(s). The following image represents the main idea and the sequence of processes:
 ![Simple-Copy-Paste-aug](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/f0c81e26-03a8-4bde-b017-440692dd1703)
+
     - Here are some resulted images: 
 ![image](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/51ce5ccb-1600-4156-9ad7-359ea6567f1d)
