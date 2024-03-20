@@ -1,7 +1,7 @@
 # Object-generating-system
 
   This project is my thesis for the bachelor's degree, which aims to augment datasets in order to improve the performance of detection and segmentation models. 
-  I used COCO dataset, which can be downloaded from https://cocodataset.org/. I focused on increasing the number of instances in a specified category, especially the "person" class. Thus, I used 3 augmentation methods, each described in the corresponding file: 
+  I used COCO dataset, which can be downloaded from https://cocodataset.org/. I focused on increasing the number of instances of a specified category, especially the "person" class. Thus, I used 3 augmentation methods, each described in the corresponding file: 
   
   1) Clasic augmentation methods (the "Rotate_Flip_Shear.ipynb" file)   
      - In this method, augmentation was done using techniques such as shear, flip, rotate on all images in the training set.
@@ -15,7 +15,6 @@
      - Here are some of the newly generated people:
      
 ![image](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/ce6bf60d-11d0-495f-8fe5-7ffafe867fea)
-
      - Here are some final images obtained after augmentation:
      
 ![image](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/37bb6864-db75-4d6a-a6d5-5f04a320a9bd)
