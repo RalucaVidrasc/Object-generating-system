@@ -21,7 +21,8 @@
      - This method was mainly inspired by this article: https://arxiv.org/abs/2012.07177 . The main idea is selecting 2 random images from the dataset and extract the instances from one and copy them to the other after aplying a series of transformations both to the base image and to the new instance(s). The following image represents the main idea and the sequence of processes:![Simple-Copy-Paste-aug](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/a7fc5dda-6810-4e8e-ac9b-301bc76d9265)
 
      - I used parallel processing due to the large volume of data because otherwise sooner or later the program would crush and the waiting time for processing decreases exponentially. Although Python has limitations when it comes to executing multiple threads at once, you can open a process pool that will automatically open as many entities as you have cores in the system. Each such entity will handle only one image, sending the processed data to the parent process. Here is a scheme illustrating the basic idea:
-       ![image](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/cea013d4-321e-4dc1-b03d-65bd36cec261)
+       ![Captură de ecran 2024-03-20 183256](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/9ca4645b-7f28-4185-be5c-51e0a550b6b3)
+
  
      -  Here are some resulted images:
        
