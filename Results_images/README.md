@@ -5,12 +5,20 @@ Here are some of the results:
 
 1.  The evaluation of the model trained on the "Simple-Copy-Paste"-augmented dataset:
 In these experiments I used the following colours:
-* light green -- 30% * dark green -- 30% + train
-* pink -- 50%  * red -- 50% + train
-* light blue -- 80% * dark blue 80% + train
+* light green -- 30%
+* dark green -- 30% + train
+* pink -- 50%  
+* red -- 50% + train
+* light blue -- 80%
+* dark blue 80% + train
 - learning rate = 0.0001:
   ![AP_0001_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/4b97f70b-812a-4b02-806b-ebbebcb3e015)
 - learning  rate = 0.0005:
   ![AP_0005_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/57a10a69-40fc-476a-ad18-04cdeefcafc2)
 - learning rate = 0.001:
   ![AP_001_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/b5e8e25a-7d53-431e-a545-c06c8bcfbada)
+2. The evaluation of the model trained on the "GAN"-augmented dataset:
+  ![GAN_0005](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/ee449f1f-32a0-442c-8186-b53b1b9748d7)
+
+3. The evaluation of the model trained on the "RotateFlipShear"-augmented dataset:
+![AP_0005_RFS](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/cd329e6a-738e-48dc-b442-0a762a8a4425)
