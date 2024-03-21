@@ -6,3 +6,4 @@ Here are some of the results:
 1.  The evaluation of the model trained on the "Simple-Copy-Paste"-augmented dataset:
 
 - learning rate = 0.0001:
+![d](https://github.com/RalucaVidrasc/Object-generating-system/blob/result-images/AP_0001_scp.png)
