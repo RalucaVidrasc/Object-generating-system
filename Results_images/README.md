@@ -7,6 +7,7 @@ In the following images :
 bbox - bounding box 
 segm - segmentation 
 1.  The evaluation of the model trained on the "Simple-Copy-Paste"-augmented dataset:
+   
 In this experiment I used the following colours:
 * light green -- 30%
 * dark green -- 30% + train
@@ -22,6 +23,7 @@ In this experiment I used the following colours:
     - learning rate = 0.001:
   ![AP_001_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/b5e8e25a-7d53-431e-a545-c06c8bcfbada)
 2. The evaluation of the model trained on the "GAN"-augmented dataset:
+
   In this experiment I used the following colours:
   * green - 30%
   * light blue - 50%
