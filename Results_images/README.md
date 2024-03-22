@@ -37,7 +37,7 @@ In this experiment I used the following colours:
 * the original dataset has the following colours, in order: purple, yellow and green
 * the augmented dataset has the following colours, in order: pink, green and blue
   
-      Here are the results for the learning rate of 0.0005:
+  Here are the results for the learning rate of 0.0005:
 ![AP_0005_RFS](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/cd329e6a-738e-48dc-b442-0a762a8a4425)
 
     CONCLUSIONS
