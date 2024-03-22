@@ -14,11 +14,11 @@ In this experiment I used the following colours:
 * red -- 50% + train
 * light blue -- 80%
 * dark blue -- 80% + train
-- learning rate = 0.0001:
+    - learning rate = 0.0001:
   ![AP_0001_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/4b97f70b-812a-4b02-806b-ebbebcb3e015)
-- learning  rate = 0.0005:
+    - learning  rate = 0.0005:
   ![AP_0005_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/57a10a69-40fc-476a-ad18-04cdeefcafc2)
-- learning rate = 0.001:
+    - learning rate = 0.001:
   ![AP_001_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/b5e8e25a-7d53-431e-a545-c06c8bcfbada)
 2. The evaluation of the model trained on the "GAN"-augmented dataset:
   In this experiment I used the following colours:
@@ -36,7 +36,7 @@ In this experiment I used the following colours:
 * the augmented dataset has the following colours, in order: pink, green and blue 
 ![AP_0005_RFS](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/cd329e6a-738e-48dc-b442-0a762a8a4425)
 
-+ Conclusions
+    CONCLUSIONS
 - When 30% more instances are added, the density of the objects grows slower than the original set. On the other hand, randomly copying 80% of the instances can lead to a sudden increase in density, which may be due to a large number of overlaps, thus covering important elements of the base image.
 - A limitation may be the idea that the base images are sometimes resized at a too low resolution, Detectron2 not being able to extract all the necessary features, and generally having difficulties in recognising small objects.
 - If a low learning rate is used, the metrics begin to have small values, after which they steadily increase. As the learning rate increases, the variations results begin to be briefer, reaching convergence more quickly. Regardless of the method used, however, the results of the values eventually stabilise. Thus, all learning rates reach similar performance after a number of epochs, but what differs is the rate of increase and the trajectory.
