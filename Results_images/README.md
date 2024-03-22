@@ -4,8 +4,8 @@ I have therefore analysed the average precision of the model by taking various c
 
 Here are some of the results: 
 In the following images :
-bbox - the average precision of the model of detecting the correct bounding box
-segm - 
+bbox - bounding box 
+segm - segmentation 
 1.  The evaluation of the model trained on the "Simple-Copy-Paste"-augmented dataset:
 In this experiment I used the following colours:
 * light green -- 30%
@@ -14,6 +14,7 @@ In this experiment I used the following colours:
 * red -- 50% + train
 * light blue -- 80%
 * dark blue -- 80% + train
+* gray -- original dataset
     - learning rate = 0.0001:
   ![AP_0001_scp](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/4b97f70b-812a-4b02-806b-ebbebcb3e015)
     - learning  rate = 0.0005:
@@ -35,6 +36,7 @@ In this experiment I used the following colours:
   In this experiment:
 * the original dataset has the following colours, in order: purple, yellow and green
 * the augmented dataset has the following colours, in order: pink, green and blue
+  
       Here are the results for the learning rate of 0.0005:
 ![AP_0005_RFS](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/cd329e6a-738e-48dc-b442-0a762a8a4425)
 
