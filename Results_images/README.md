@@ -27,21 +27,22 @@ In this experiment I used the following colours:
   * purple - 80%
   * gray - original dataset
     
-       Here are the results for the learning rate of 0.0005
+       Here are the results for the learning rate of 0.0005:
   ![GAN_0005](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/ee449f1f-32a0-442c-8186-b53b1b9748d7)
 
 3. The evaluation of the model trained on the "RotateFlipShear"-augmented dataset:
    The applying of this type of augmentation by itself(without the adding of the original dataset) had weaker results than the original database. However, when I trained the model with the merged set I obtained better results than the original dataset:
   In this experiment:
 * the original dataset has the following colours, in order: purple, yellow and green
-* the augmented dataset has the following colours, in order: pink, green and blue 
+* the augmented dataset has the following colours, in order: pink, green and blue
+      Here are the results for the learning rate of 0.0005:
 ![AP_0005_RFS](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/cd329e6a-738e-48dc-b442-0a762a8a4425)
 
     CONCLUSIONS
 - When 30% more instances are added, the density of the objects grows slower than the original set. On the other hand, randomly copying 80% of the instances can lead to a sudden increase in density, which may be due to a large number of overlaps, thus covering important elements of the base image.
 - A limitation may be the idea that the base images are sometimes resized at a too low resolution, Detectron2 not being able to extract all the necessary features, and generally having difficulties in recognising small objects.
 - If a low learning rate is used, the metrics begin to have small values, after which they steadily increase. As the learning rate increases, the variations results begin to be briefer, reaching convergence more quickly. Regardless of the method used, however, the results of the values eventually stabilise. Thus, all learning rates reach similar performance after a number of epochs, but what differs is the rate of increase and the trajectory.
-- The "simple-copy-paste" method does not depend on the locations where the instances are copied (e.g. copying the instances into the images that already contained the object in question, copying into the pictures that did not correspond to the chosen class and copying the instances into all the pictures randomly).
+- The "simple-copy-paste" method does not depend on the locations where the instances are copied (e.g. copying the instances into the images that already contained the object in question, copying into the images that did not correspond to the chosen class and copying the instances into all the images randomly).
 - The GAN method depends very much on how the training was done. Thus, ın case ın which the masks of the instances offered for training are uncertain and show various variations not specific to the class ın question, the trained model very easily be confused and may learn inappropriate features.
-- The "copy-paste" method obtained significantly better results than the other objects applied, thus highlighting the power of this type of augmentation
+- The "copy-paste" method obtained significantly better results than the other objects applied, thus highlighting the power of this type of augmentation.
 
