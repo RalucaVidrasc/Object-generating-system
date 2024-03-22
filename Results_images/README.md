@@ -26,7 +26,7 @@ In this experiment I used the following colours:
   * light blue - 50%
   * purple - 80%
   * gray - original dataset
-  Here are the results for the learning rate of 0.0005
+       Here are the results for the learning rate of 0.0005
   ![GAN_0005](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/ee449f1f-32a0-442c-8186-b53b1b9748d7)
 
 3. The evaluation of the model trained on the "RotateFlipShear"-augmented dataset:
