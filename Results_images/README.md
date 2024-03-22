@@ -32,6 +32,7 @@ In this experiment I used the following colours:
   ![GAN_0005](https://github.com/RalucaVidrasc/Object-generating-system/assets/105721568/ee449f1f-32a0-442c-8186-b53b1b9748d7)
 
 3. The evaluation of the model trained on the "RotateFlipShear"-augmented dataset:
+   
    The applying of this type of augmentation by itself(without the adding of the original dataset) had weaker results than the original database. However, when I trained the model with the merged set I obtained better results than the original dataset:
   In this experiment:
 * the original dataset has the following colours, in order: purple, yellow and green
